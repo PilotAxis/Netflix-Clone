@@ -105,6 +105,37 @@
     background-color: rgb(41, 41, 41);
 }
 
+.division-4 {
+    display: flex;
+    background-color: black;
+    gap: 30px;
+}
+
+.image-div-4 {
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.text-div-4 {
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #ffffff;
+}
+
+.para-4 {
+    font-weight: 600;
+    font-size: 5.2vh;
+    margin-bottom: 30px;
+}
+
+.para-5 {
+    font-weight: 300;
+    font-size: 3.2vh;
+    margin-right: 40px;
+}
+
 @keyframes animateBg {
     0% {
         background-position: 0% 0%;
