@@ -212,6 +212,20 @@
     font-size: 3.2vh;
 }
 
+.division-5 {
+    background-color: black;
+    display: block;
+}
+
+.heading-footer {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 5.2vh;
+    font-weight: 500;
+}
+
 /* For smaller devices (iPAD and iPhone resolution */
 
 @media screen and (max-width: 768px) {
