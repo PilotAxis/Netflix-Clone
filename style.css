@@ -13,7 +13,11 @@
 }
 
 .navBar {
+    padding-bottom: 25px;
+    background-color: black;
     display: flex;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -42,7 +46,7 @@
     color: #fff;
     font-size: 50px;
     text-align: center;
-    margin-top: 150px;
+    padding-top: 200px;
 }
 
 #sub-heading {
@@ -259,54 +263,3 @@
     margin-left: 15px;
 }
 
-
-
-/* For smaller devices (iPAD and iPhone resolution */
-
-@media screen and (max-width: 768px) {
-
-    body {
-        overflow-x: hidden;
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .logo {
-        margin-left: 30px;
-    }
-
-    #sign-in {
-        margin-right: 30px;
-    }
-
-    #sub-heading {
-        font-size: 22px;
-    }
-
-    .text-bottom {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .input-field {
-        display: block;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .input-field input {
-        width: 300px;
-    }
-
-    .get-started {
-        margin-top: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
