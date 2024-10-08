@@ -263,6 +263,10 @@
     margin-left: 15px;
 }
 
+#display-paragraph {
+    display: none;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -288,7 +292,6 @@
 
 .footer .flex1 {
     color: #999;
-    ;
     justify-content: space-around;
     align-items: flex-start;
     display: flex;
