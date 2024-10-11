@@ -406,7 +406,8 @@ li a {
     }
 
     #heading {
-        margin-left: 20px;
+        text-align: center;
+        width: 100%;
     }
 
     #sub-heading {
