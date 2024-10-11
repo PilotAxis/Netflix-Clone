@@ -401,8 +401,10 @@ li a {
     }
 
     .hero-section {
+        overflow-y: hidden;
         text-align: center;
         padding: 0 17px 0 17px;
+        height: 105vh;
     }
 
     #heading {
@@ -429,7 +431,7 @@ li a {
 
     .input-field button {
         margin-top: 17px;
-        margin-bottom: 37px;
+        margin-bottom: 17px;
     }
 
     .division-2 {
