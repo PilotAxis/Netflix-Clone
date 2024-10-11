@@ -378,3 +378,133 @@ li a {
 
 /* For smaller devices */
 
+@media only screen and (max-width: 768px) {
+
+    * {
+        zoom: 0%;
+        overflow-x: hidden;
+    }   
+
+    .navBar {
+        /* position: absolute; */
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 17px;
+        margin-right: auto;
+    }
+
+    #sign-in {
+        margin-left: auto;
+        margin-right: 17px;
+    }
+
+    .hero-section {
+        text-align: center;
+        padding: 0 17px 0 17px;
+    }
+
+    #heading {
+        margin-left: 20px;
+    }
+
+    #sub-heading {
+        padding: 0 17px 0 17px;
+    }
+
+    .text-bottom {
+        padding: 0 17px 0 17px;
+    }
+
+    .input-field {
+        display: block;
+        text-align: center;
+    }
+
+    .field {
+        width: 100%;
+    }
+
+    .input-field button {
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    .division-2 {
+        display: block;
+        text-align: center;
+    }
+
+    .text-division {
+        display: block;
+        padding-left: auto;
+        padding-right: 27px;
+    }
+
+    .image-division {
+        width: 100%;
+        padding: 0 17px 0 17px;
+    }
+
+    .division-3 {
+        display: block;
+        text-align: center;
+    }
+
+    .image-div-3 {
+        width: 100%;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .text-division-2 {
+        padding: 0 17px 107px 17px;
+    }
+
+    .division-4 {
+        display: block;
+        text-align: center;
+    }
+
+    .text-div-4 {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .para-5 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .image-div-4 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .division-5 {
+        padding: 0 17px 0 17px;
+    }
+
+    .text-box {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+    }
+
+    .input-field input {
+        width: 100%;
+    }
+
+    .text-option {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bx {
+        margin-right: 20px;
+    }
+
+}
