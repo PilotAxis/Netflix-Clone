@@ -378,7 +378,7 @@ li a {
 
 /* For smaller devices */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1107px) {
 
     * {
         zoom: 0%;
@@ -505,6 +505,20 @@ li a {
 
     .bx {
         margin-right: 20px;
+    }
+
+    .flex1 h5 {
+        margin-top: 30px;
+    }
+
+    .list1 {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .end h2 {
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 
 }
